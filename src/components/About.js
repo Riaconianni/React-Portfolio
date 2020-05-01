@@ -26,7 +26,7 @@ function About() {
           <p>
             I am a Fullstack Developer that attended a Web Development Bootcamp
             at Rutgers University. Currently, I am a Configuration Management
-            Specialist the FAA Tech Center in Atlantic City, NJ. Before I
+            Specialist at the FAA Tech Center in Atlantic City, NJ. Before I
             started working for the FAA Tech Center, I was a Personal Banker for
             a small bank called Univest. I was in the banking industry for 7
             years. Also, I am currently a board member for Big Brothers Big
