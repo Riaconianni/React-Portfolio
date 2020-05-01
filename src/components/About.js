@@ -35,7 +35,7 @@ function About() {
               board member for Big Brothers Big Sisters of Atlantic and Cape May
               Counties.
             </p>
-            <div className="text-center">
+            <div className="text-center mb-3">
             <Button href={MyResume} variant="secondary" size="lg">
               Click here to view my resume!
             </Button>
