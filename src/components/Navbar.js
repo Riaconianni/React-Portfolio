@@ -13,8 +13,8 @@ function AppNavbar() {
             <Nav.Link as={Link} to='/'>
               About
             </Nav.Link>
-            <Nav.Link as={Link} to='/resume'>
-              Resume
+            <Nav.Link as={Link} to='/projects'>
+              Projects
             </Nav.Link>
             <Nav.Link as={Link} to='/contact'>
               Contact
