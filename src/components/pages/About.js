@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col, Container, Image, Figure, Button } from "react-bootstrap";
-import Me from "../rachel.jpg";
-import MyResume from "../Rachel-Iaconianni.pdf";
+import Me from "../../assets/rachel.jpg";
+import MyResume from "../../assets/Rachel-Iaconianni.pdf";
 
 function About() {
   return (
@@ -36,7 +36,7 @@ function About() {
               Counties.
             </p>
             <div className="text-center mb-3">
-            <Button href={MyResume} variant="secondary" size="lg">
+            <Button href={MyResume} variant="secondary" size="lg" target="_blank" rel="noopener">
               Click here to view my resume!
             </Button>
             </div>

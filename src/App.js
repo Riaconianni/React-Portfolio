@@ -2,9 +2,9 @@ import React from 'react';
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import AppNavBar from './components/Navbar';
-import About from './components/About';
-import Contact from './components/Contact';
-import Projects from './components/Projects';
+import About from './components/pages/About';
+import Contact from './components/pages/Contact';
+import Projects from './components/pages/Projects';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
