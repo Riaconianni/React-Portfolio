@@ -1,7 +1,7 @@
 a:link, a:visited {
   color: black;
   padding: 14px 25px;
-  text-align: left;
+  text-align: center;
   text-decoration: none;
   display: inline-block;
   
@@ -15,6 +15,7 @@ a:hover, a:active {
 h1, h2 {
   color: rgb(173, 133, 140);
   font-family: 'Lora', serif;
+  font-size: 36px!important;
 }
 
 p {
@@ -22,14 +23,43 @@ p {
   font-size: 18px;
 }
 
-.btn {
+.mybtn {
   font-family: 'Lora', serif;
+  border-color: rgb(173, 133, 140)!important;
+  background-color: rgb(173, 133, 140)!important;
+  color:  white!important;
   text-decoration: none;
   padding: 14px 25px;
+}
+
+.mybtn:hover {
+  border-color: rgb(173, 133, 140)!important;
+  background-color: white!important;
+  color:  rgb(173, 133, 140)!important;
 }
 
 a {
   font-family: 'Lora', serif;
   font-size: 18px;
   color: black;
+}
+
+.mylinks:hover {
+  color:  rgb(173, 133, 140)!important;
+  text-decoration: none;
+}
+
+.bookimg {
+  width: 100%;
+  padding: 10px;
+}
+
+.imgarea{
+  position: relative;
+}
+
+.imgbtn {
+  position: absolute;
+  bottom: 50px;
+  left: 44%;
 }

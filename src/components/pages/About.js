@@ -4,6 +4,7 @@ import Me from "../../assets/rachel.jpg";
 import MyResume from "../../assets/Rachel-Iaconianni.pdf";
 
 function About() {
+
   return (
     <>
       <Container>
@@ -36,7 +37,7 @@ function About() {
               Counties.
             </p>
             <div className="text-center mb-3">
-            <Button href={MyResume} variant="secondary" size="lg" target="_blank" rel="noopener">
+            <Button href={MyResume} className="mybtn" size="lg" target="_blank" rel="noopener">
               Click here to view my resume!
             </Button>
             </div>
