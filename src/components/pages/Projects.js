@@ -11,7 +11,8 @@ import Recipe from '../../assets/recipe.jpg';
 function Resume() {
   return (
     <>
-    <Container>
+    <Container className="bg-white border border-secondary rounded mt-5 mb-3 p-2">
+    <h2 className="projects">Projects</h2>
       <Row>
         <Col xs={12} md={6} className="imgarea text-center">
           <Image src={Booklist} className="bookimg"></Image>

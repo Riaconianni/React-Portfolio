@@ -7,7 +7,7 @@ function About() {
 
   return (
     <>
-      <Container>
+      <Container className="border border-secondary rounded-lg mt-5 mb-5 p-2 bg-white">
         <Row xs={12} md={12} className="justify-content-center mt-3">
           <Figure>
             <Figure.Image
@@ -16,6 +16,7 @@ function About() {
               alt="Picture of Rachel"
               src={Me}
               roundedCircle
+              className="border border-secondary"
             />
           </Figure>
         </Row>

@@ -4,9 +4,9 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 
 function AppNavbar() {
   return (
-    <Navbar bg='light' variant='light' expand='lg'>
+    <Navbar bg='light' variant='light' expand='lg' className="shadow">
       <Container fluid>
-        <Navbar.Brand>Rachel Iaconianni Portfolio</Navbar.Brand>
+        <Navbar.Brand as={Link} to='/'>Rachel Iaconianni Portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls='navbar' />
         <Navbar.Collapse id='navbar'>
           <Nav className='ml-auto'>

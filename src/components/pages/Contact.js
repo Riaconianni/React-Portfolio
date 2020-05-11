@@ -9,8 +9,8 @@ import '../../App.css';
 function Contact() {
   return (
     <>
-    <Container className="text-center">
-     <h2 className="mt-3">Contact me</h2>
+    <Container className="text-center bg-white border border-secondary rounded mt-5 p-3">
+     <h2 className="mt-2 contact">Contact me</h2>
 <Row>
   <Col>
   <Image src={Linkedin}></Image>
