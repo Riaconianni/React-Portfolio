@@ -6,6 +6,7 @@ import Code from '../../assets/code.jpg';
 import Dumbbells from '../../assets/dumbbells.jpg';
 import Rainbow from '../../assets/rainbow.jpg';
 import Recipe from '../../assets/recipe.jpg';
+import Groovy from '../../assets/groovy.jpg';
 
 
 function Resume() {
@@ -18,6 +19,7 @@ function Resume() {
           <Image src={Booklist} className="bookimg"></Image>
           <Button href="https://github.com/Riaconianni/Bookfinder" className="imgbtn" target="_blank" rel="noopener">Book List Github</Button>
           <Button href="https://quiet-basin-62546.herokuapp.com/" className="imgbtn2" target="_blank" rel="noopener">Book List</Button>
+          <p>Username: Iaconiannir@gmail.com | Password: 12345</p>
         </Col>
         <Col xs={12} md={6} className="imgarea text-center">
         <Image src={Recipe} className="bookimg"></Image>
@@ -44,9 +46,9 @@ function Resume() {
           <Button href="https://serene-cliffs-49135.herokuapp.com/" className="imgbtn2" target="_blank" rel="noopener">Burger Logger</Button>
         </Col>
         <Col xs={12} md={6} className="imgarea text-center">
-        <Image src={Dumbbells} className="bookimg"></Image>
-        <Button href="https://github.com/Riaconianni/Fitness-Tracker" className="imgbtn" target="_blank" rel="noopener">Fitness Tracker Github</Button>
-        <Button href="https://lychee-crumble-73323.herokuapp.com/" className="imgbtn2" target="_blank" rel="noopener">Fitness Tracker</Button>
+        <Image src={Groovy} className="bookimg"></Image>
+        <Button href="https://github.com/CassidyGrom/flogger" className="imgbtn" target="_blank" rel="noopener">Feelings Journal Github</Button>
+        <Button href="https://emotions-log.herokuapp.com/" className="imgbtn2" target="_blank" rel="noopener">Feelings Journal</Button>
         </Col>
       </Row>
       </Container>
