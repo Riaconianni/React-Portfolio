@@ -28,8 +28,8 @@ function About() {
         <Row xs={12} md={12} className="justify-content-center ml-auto">
           <Container className="mt-3">
             <p>
-              I am a Fullstack Developer that attended a Web Development
-              Bootcamp at Rutgers University. Currently, I am a Program Analyst
+              I am a Front-End Developer that attended a Fullstack Web Development
+              Bootcamp at Rutgers University. My strongest tech skills are HTML5, CSS3, UI/UX, JavaScript, and React.js. Currently, I am a Program Analyst
               for the Configuration Management Team at the FAA Tech Center in
               Atlantic City, NJ. Before I started working for the FAA Tech
               Center, I was a Personal Banker for a small bank called Univest. I
