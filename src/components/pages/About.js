@@ -1,7 +1,7 @@
 import React from "react";
 import { Row, Col, Container, Image, Figure, Button } from "react-bootstrap";
 import Me from "../../assets/rachel.jpg";
-import MyResume from "../../assets/Rachel-Iaconianni.pdf";
+import MyResume from "../../assets/Resume.pdf";
 
 function About() {
 
